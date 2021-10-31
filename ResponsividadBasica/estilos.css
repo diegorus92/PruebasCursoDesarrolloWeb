@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+    max-width: 720px;
+    margin: auto;
+}
+
+.columna{
+    background-color:burlywood;
+    float: left;
+    width: 20%;
+    margin: 2.5%;
+}
