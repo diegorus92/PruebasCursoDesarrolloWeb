@@ -1,6 +1,6 @@
 body{
     background-color: antiquewhite;
-    max-width: 720px;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -9,4 +9,63 @@ body{
     float: left;
     width: 20%;
     margin: 2.5%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pc{
+    width: 100%;
+}
+
+.tablet{
+    width: 100%;
+    display: none;
+}
+
+.celular{
+    width: 100%;
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: rgb(255, 199, 248);
+        width: 100%;
+    }
+
+    .columna{
+        background-color: rgb(238, 147, 28);
+        width: 40%;
+        margin: 5%;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    .tablet{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 360px){
+     body{
+         background-color: rgb(139, 98, 98);
+         width: 100%;
+     }
+
+     .columna{
+         background-color: rgb(247, 61, 4);
+         float:none;
+         width: 95%;
+         margin: 2%;
+     }
+
+    .tablet{
+        display: none;
+    }
+
+    .celular{
+        display: inline-block;
+    }
 }
