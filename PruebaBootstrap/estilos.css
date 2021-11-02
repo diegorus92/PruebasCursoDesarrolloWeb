@@ -12,7 +12,17 @@ h1{
     background-color: azure;
     text-align: center;
     padding: 5%;
-    border: 5px black solid;
-    border-style: double;
+    border: 5px black double;
     border-radius: 5px;
 }
+
+.contenedor{
+    background-color:grey;
+    border: 10px rgb(110, 154, 236) groove;
+    color:white;
+}
+
+.tabla{
+    border: 6px rgb(158, 158, 255) solid;
+}
+
