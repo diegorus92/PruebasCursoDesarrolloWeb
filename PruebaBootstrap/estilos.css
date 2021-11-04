@@ -9,7 +9,7 @@ h1{
 }
 
 .columna{
-    background-color: azure;
+    background-color: rgb(110, 160, 160);
     text-align: center;
     padding: 5%;
     border: 5px black double;
@@ -26,3 +26,6 @@ h1{
     border: 6px rgb(158, 158, 255) solid;
 }
 
+.carousel img{
+    padding: 0 10% 0 10%;
+}
