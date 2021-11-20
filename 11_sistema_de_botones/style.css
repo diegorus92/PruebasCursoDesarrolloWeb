@@ -64,9 +64,9 @@ div{
     width: 12%;
 }
 
+/*ahora si afecta el margin vertical a los enlaces*/
 .margen-vertical{
-    margin-top: 20px;
-
+    margin-bottom: 20px;
 }
 
 article{
