@@ -50,8 +50,25 @@ a:active {}
     }
 }
 
+/*Las propiedades background-color solo son para ver y resaltar el espacio nada mas.*/
 div{
-    margin-top: 50px;
+    background-color: brown;
     margin-bottom: 50px;
 }
 
+/*uso una clase en este caso para separar las soluciones*/
+.div-solucion-2{
+    display:flex;
+    background-color: blue;
+    flex-direction: column;
+    width: 12%;
+}
+
+.margen-vertical{
+    margin-top: 20px;
+
+}
+
+article{
+    display:flex;
+}

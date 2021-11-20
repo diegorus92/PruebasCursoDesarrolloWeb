@@ -14,17 +14,38 @@
     <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a>
     <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a>
     <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a>
+
 <h2>Vertical</h2>
 <!--¿Cómo darle margen bottom?-->
 <!--RESPUESTA:
-    margin collapse
-    https://www.joshwcomeau.com/css/rules-of-margin-collapse/
-    SOLUCION: agregar div a cada enlace, y aplicar el margen a los div
+        margin collapse: Esto es que los margenes verticales (top & bottom)
+        chocan entre sí, algo que no ocurre con los horizonales.
+    FUENTES:
+        https://www.joshwcomeau.com/css/rules-of-margin-collapse/
+        https://css-tricks.com/almanac/properties/m/margin/
+    SOLUCION 1: 
+        agregar div a cada enlace, y aplicar el margen a los div. 
+        Se conservan las etiquetas <br>
 -->
+<h3>Solución 1</h3>
 <div><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a> <br></div>
 <div><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a> <br></div>
 <div><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a> <br></div>
 <div><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a> <br></div>
+
+
+<!--
+    SOLUCION 2: 
+        Eliminar las etiquetas <br>, encerrar en un <div> el conjunto de <a>
+        y usar flexbox para acomodar los mismos dentro del div    
+-->
+<h3>Solución 2</h3>
+<div class="div-solucion-2">
+    <a class="margen-vertical" href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a> 
+    <a class="margen-vertical" href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a> 
+    <a class="margen-vertical" href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a>
+    <a class="margen-vertical" href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links" target="_new">estilo a los enlaces</a>
+</div>
 
 <h2>Items</h2>
 <ul>
