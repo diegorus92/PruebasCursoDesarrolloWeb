@@ -1,0 +1,24 @@
+h1{
+    animation-name: animacionTamanio;
+    animation-direction: alternate;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.20,.61,.53,.33);
+    
+}
+
+a:hover{
+    animation-play-state:paused;
+    animation-name: animacionTamanio;
+}
+
+@keyframes animacionTamanio {
+    0%{
+        font-size:10px;
+    }
+
+    100%{
+        font-size: 150px;
+        color:blueviolet;
+    }
+}
